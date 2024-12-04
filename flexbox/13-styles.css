@@ -620,7 +620,7 @@
     .tag-list li {
       display: inline;
     }
-    .tag-list .li::after {
+    .tag-list li::after {
       content: ", ";
     }
     .tag-list li:last-child::after {
