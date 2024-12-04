@@ -612,15 +612,15 @@
     /* Tag list
     ============================= */
 
-    .target-list {
+    .tag-list {
       padding: 0;
       list-style: none;
     }
 
-    .target-list .li {
+    .tag-list li {
       display: inline;
     }
-    .target-list .li::after {
+    .tag-list .li::after {
       content: ", ";
     }
     .tag-list li:last-child::after {
